@@ -1,0 +1,66 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "glance"
+name = "Glance"
+description.en = "Self-hosted dashboard that puts all your feeds in one place"
+description.fr = "Tableau de bord auto-hébergé qui regroupe tous vos flux au même endroit"
+
+version = "0.4.0~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "AGPL-3.0"
+admindoc = "https://github.com/glanceapp/glance/blob/main/docs/configuration.md"
+code = "https://github.com/glanceapp/glance"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+    [resources.sources.main]
+    in_subdir = false
+    extract   = true
+    rename = "glance"
+    amd64.url = "https://github.com/glanceapp/glance/releases/download/v0.4.0/glance-linux-amd64.tar.gz"
+    amd64.sha256 = "8c862f4af580f7b676650aec45e5b59d0f086ff2cedf245b46bd16124bcf5623"
+    arm64.url = "https://github.com/glanceapp/glance/releases/download/v0.4.0/glance-linux-arm64.tar.gz"
+    arm64.sha256 = "5a0536170eb4e88390b513e7aa8aa78a0505c2b6ae18d8091043487fcbd9ee39"
+    armhf.url = "https://github.com/glanceapp/glance/releases/download/v0.4.0/glance-linux-armv7.tar.gz"
+    armhf.sha256 = "dcb38e0bc1faf4ceffd4d70ff3d869e7af42cf2aecc1c97dd55bec2c0131e027"
+
+    autoupdate.strategy = "latest_github_tag"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.data_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.ports]
