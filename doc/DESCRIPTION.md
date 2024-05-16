@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+A self-hosted dashboard that puts all your feeds in one place.

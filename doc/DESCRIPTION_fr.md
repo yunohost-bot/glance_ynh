@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+Tableau de bord auto-hébergé qui regroupe tous vos flux au même endroit.
