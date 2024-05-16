@@ -16,8 +16,7 @@
 
 ## 概况
 
-This is a dummy description of this app features
-
+A self-hosted dashboard that puts all your feeds in one place.
 
 **分发版本：** 0.4.0~ynh1
 
