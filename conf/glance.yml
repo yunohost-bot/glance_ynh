@@ -42,7 +42,7 @@ pages:
               - UCOk-gHyjcWZNj3Br4oxwh0A # Techno Tim
 
           - type: reddit
-            subreddit: selfhosted
+            subreddit: yunohost
 
       - size: small
         widgets:
