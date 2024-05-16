@@ -16,8 +16,7 @@ It shall NOT be edited by hand.
 
 ## Overview
 
-This is a dummy description of this app features
-
+A self-hosted dashboard that puts all your feeds in one place.
 
 **Shipped version:** 0.4.0~ynh1
 

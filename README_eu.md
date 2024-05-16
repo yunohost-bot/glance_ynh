@@ -16,8 +16,7 @@ EZ editatu eskuz.
 
 ## Aurreikuspena
 
-This is a dummy description of this app features
-
+A self-hosted dashboard that puts all your feeds in one place.
 
 **Paketatutako bertsioa:** 0.4.0~ynh1
 
