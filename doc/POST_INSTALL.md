@@ -1,0 +1,1 @@
+Configuration is done via a single YAML file `__DATA_DIR__/glance.yml` with the help of this [documentation](https://github.com/glanceapp/glance/blob/main/docs/configuration.md) and a service restart is required in order for any changes to take effect.
