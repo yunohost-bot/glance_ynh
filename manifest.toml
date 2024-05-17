@@ -44,7 +44,6 @@ ram.runtime = "50M"
     [resources.sources.main]
     in_subdir = false
     extract   = true
-    rename = "glance"
     amd64.url = "https://github.com/glanceapp/glance/releases/download/v0.4.0/glance-linux-amd64.tar.gz"
     amd64.sha256 = "8c862f4af580f7b676650aec45e5b59d0f086ff2cedf245b46bd16124bcf5623"
     arm64.url = "https://github.com/glanceapp/glance/releases/download/v0.4.0/glance-linux-arm64.tar.gz"
