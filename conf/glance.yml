@@ -41,9 +41,6 @@ pages:
               - UCv6J_jJa8GJqFwQNgNrMuww # ServeTheHome
               - UCOk-gHyjcWZNj3Br4oxwh0A # Techno Tim
 
-          - type: reddit
-            subreddit: yunohost
-
       - size: small
         widgets:
           - type: weather
