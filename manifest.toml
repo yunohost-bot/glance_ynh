@@ -7,7 +7,7 @@ name = "Glance"
 description.en = "Self-hosted dashboard that puts all your feeds in one place"
 description.fr = "Tableau de bord auto-hébergé qui regroupe tous vos flux au même endroit"
 
-version = "0.5.0~ynh1"
+version = "0.5.1~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -45,13 +45,19 @@ ram.runtime = "50M"
     in_subdir = false
     extract   = true
     amd64.url = "https://github.com/glanceapp/glance/releases/download/v0.5.0/glance-linux-amd64.tar.gz"
-    amd64.sha256 = "804ca5a26ceeefbb184a7b268133675324ff843738824b6ab7a8c9e576a18495"
+    amd64.sha256 = "728ec7e5d08e45c8c5b66fa1a9f70c21fc84e784b4ca1aa19bd1d46c2623969b"
     arm64.url = "https://github.com/glanceapp/glance/releases/download/v0.5.0/glance-linux-arm64.tar.gz"
-    arm64.sha256 = "6176df38d18bb209238ed05e28c6addcec12d573260c82e088e3d69c77cb8252"
+    arm64.sha256 = "e4f8180e7b5116e2ed8eec08c483ce91c5b9f0131f8fa62b0808421dcc1826ed"
     armhf.url = "https://github.com/glanceapp/glance/releases/download/v0.5.0/glance-linux-armv7.tar.gz"
-    armhf.sha256 = "6a0c91a515d2160e7ecd8d9d0cd22c1a61aba827854662dfa7de1636a060a287"
+    armhf.sha256 = "cc476860fbbd9937264b41a57c6fe89753fd3702c2412c9104865d855cfa1301"
+    i386.url = "https://github.com/glanceapp/glance/releases/download/v0.5.1/glance-linux-386.tar.gz"
+    i386.sha256 = "121405dd0f1c6b00eb41aa5829c78da279b5dc638378035b66921262b9176d76"
 
     autoupdate.strategy = "latest_github_tag"
+    autoupdate.asset.amd64 = "^glance-linux-amd64.tar.gz$"
+    autoupdate.asset.arm64 = "^glance-linux-arm64.tar.gz$"
+    autoupdate.asset.armhf = "^glance-linux-armv7.tar.gz$"
+    autoupdate.asset.i386 = "^glance-linux-386.tar.gz$"
 
     [resources.system_user]
 
