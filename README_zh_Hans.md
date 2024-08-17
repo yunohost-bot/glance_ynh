@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Glance
 
-[![集成程度](https://dash.yunohost.org/integration/glance.svg)](https://dash.yunohost.org/appci/app/glance) ![工作状态](https://ci-apps.yunohost.org/ci/badges/glance.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/glance.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/glance.svg)](https://ci-apps.yunohost.org/ci/apps/glance/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/glance.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/glance.maintain.svg)
 
 [![使用 YunoHost 安装 Glance](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=glance)
 
@@ -34,7 +34,7 @@ A self-hosted dashboard that puts all your feeds in one place.
     Site monitor
 
 
-**分发版本：** 0.5.0~ynh1
+**分发版本：** 0.5.1~ynh1
 
 ## 截图
 
