@@ -53,7 +53,7 @@ ram.runtime = "50M"
     i386.url = "https://github.com/glanceapp/glance/releases/download/v0.5.1/glance-linux-386.tar.gz"
     i386.sha256 = "121405dd0f1c6b00eb41aa5829c78da279b5dc638378035b66921262b9176d76"
 
-    autoupdate.strategy = "latest_github_tag"
+    autoupdate.strategy = "latest_github_release"
     autoupdate.asset.amd64 = "^glance-linux-amd64.tar.gz$"
     autoupdate.asset.arm64 = "^glance-linux-arm64.tar.gz$"
     autoupdate.asset.armhf = "^glance-linux-armv7.tar.gz$"
