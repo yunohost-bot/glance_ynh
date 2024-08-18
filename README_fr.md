@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # Glance pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/glance.svg)](https://dash.yunohost.org/appci/app/glance) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/glance.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/glance.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/glance.svg)](https://ci-apps.yunohost.org/ci/apps/glance/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/glance.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/glance.maintain.svg)
 
 [![Installer Glance avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=glance)
 
@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 Tableau de bord auto-hébergé qui regroupe tous vos flux au même endroit.
 
-**Version incluse :** 0.5.0~ynh1
+**Version incluse :** 0.5.1~ynh1
 
 ## Captures d’écran
 
